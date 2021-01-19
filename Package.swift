@@ -27,8 +27,9 @@ let package = Package(
             dependencies: [],
             path: "./AlamofireURLCache",
             sources: ["AlamofireURLCache.swift"],
-	    exclude: ["info.plist"]
+	          exclude: ["info.plist"]
 	),
+
         .testTarget(
             name: "AlamofireURLCache5Tests",
             dependencies: ["AlamofireURLCache5"]),
