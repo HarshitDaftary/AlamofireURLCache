@@ -21,7 +21,9 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "AlamofireURLCache5",
-            dependencies: [], path: "./AlamofireURLCache"),
+            dependencies: [],
+            path: "./AlamofireURLCache",
+            sources: ["AlamofireURLCache.swift"]),
         .testTarget(
             name: "AlamofireURLCache5Tests",
             dependencies: ["AlamofireURLCache5"]),
