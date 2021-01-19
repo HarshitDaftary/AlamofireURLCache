@@ -76,14 +76,14 @@ dependencies: [
 
 ### Swift Package on Xcode
 
-You can simply add this library to your Xcode project, Select File Menu in Xcode, go to Swift Packages, select Add Package Dependency.
+You can simply add this library to your Xcode project, Select `File` Menu in Xcode, go to `Swift Packages` > `Add Package Dependency`.
 
 Enter following URL in search box
 ```
 https://github.com/HarshitDaftary/AlamofireURLCache.git
 ```
 
-Click Next, select appropriate version for your project and Hit Next to get library to your code.
+Click `Next`, select `0.5.1` version for your project and Hit `Next` to get library to your code.
 
 ### Manually
 
