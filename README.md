@@ -70,7 +70,7 @@ Once you have your Swift package set up, adding AlamofireURLCache5 as a dependen
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/Alamofire/Alamofire.git", .upToNextMajor(from: "5.2.0"))
+    .package(url: "https://github.com/HarshitDaftary/AlamofireURLCache.git", .upToNextMajor(from: "0.5.1"))
 ]
 ```
 
